@@ -54,7 +54,11 @@ public class Main {
         System.out.println("Задание 5: Введите значение от 1 до 12");
         int monthNumber = in.nextInt();
                 switch (monthNumber) {
-                    case 1: {
+                    case 1: 
+                    case 2: {
+                         System.out.println("Зима");
+                         break;
+                     }
                     }
                     case 2: {
                         System.out.println("Зима");
